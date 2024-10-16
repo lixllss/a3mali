@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatimah Al-Shahri's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #01132B; /* اللون الداكن */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #01132B;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .project {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            background-color: #1565C0; /* لون أفتح عند التفاعل */
+        }
+        .project h2 {
+            color: #BBDEFB;
+            margin-bottom: 10px;
+        }
+        .project p {
+            color: #E3F2FD;
+            margin-bottom: 15px;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #fff;
+            background-color: #1976D2;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .project a:hover {
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>اهم اعمالي</h1>
+        
+        <div class="project">
+            <h2>السيرة الذاتية</h2>
+            <p>صفحة تحتوي على تفاصيل سيرتي الذاتية.</p>
+            <a href="resume.html">عرض السيرة الذاتية</a>
+        </div>
+
+        <div class="project">
+            <h2>خطة تثقيف الموظفين بالأمن السيبراني- افتراضية غير حقيقية</h2>
+            <p>مخطط لتثقيف الموظفين حول الأمن السيبراني ضمن برنامج مسك لتجربة العمل الافتراضي.</p>
+            <a href="cybersecurity.html">عرض خطة التثقيف</a>
+        </div>
+
+        <div class="project">
+            <h2>تطبيق شباب عسير للأندرويد</h2>
+            <p>تطبيق خاص بشباب منطقة عسير لأجهزة الأندرويد - مشروع التخرج.</p>
+            <a href="android_app.html">عرض التطبيق</a>
+        </div>
+    </div>
+</body>
+</html>
